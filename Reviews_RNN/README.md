@@ -1,32 +1,19 @@
 ## IMDB Dataset - Simple RNN Project
 
-1️⃣ Exclude your virtual environment (using .gitignore)
+# Excluding Virtual Environment from Git
 
-Git ignores files based on a .gitignore file. You usually want to ignore virtual environments because they’re OS-specific and can be recreated.
+This project uses a Python virtual environment to manage dependencies.  
+Virtual environments are **OS-specific** and can be easily recreated, so they **should not be committed to Git**.
 
-Common virtual environment names
+---
 
-Add one of these (or whichever you’re using):
+## Common Virtual Environment Names to Ignore
 
+Add one of the following (depending on your setup) to your `.gitignore` file:
+
+```gitignore
 # Python virtual environments
 venv/
 .env/
-.env/
 .venv/
 virtualenv/
-
-How to add .gitignore in VS Code
-
-Open your project in VS Code
-
-In the Explorer panel:
-
-Right-click → New File
-
-Name it .gitignore
-
-Paste the entries above
-
-Save the file
-
-✅ If the virtual environment was never committed, this is enough.
