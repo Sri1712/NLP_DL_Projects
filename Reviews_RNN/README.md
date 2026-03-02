@@ -45,7 +45,7 @@ The neural network consists of:
 ### Architecture Flow
 ```
 Embedding → SimpleRNN → Dense (Sigmoid)
-
+```
 
 ---
 
@@ -55,7 +55,7 @@ Embedding → SimpleRNN → Dense (Sigmoid)
 - TensorFlow  
 - Keras  
 - NumPy  
-- Matplotlib (optional)
+- Matplotlib 
 
 ---
 
