@@ -32,6 +32,7 @@ The dataset is automatically loaded using:
 
 ```python
 from tensorflow.keras.datasets import imdb
+```
 
 ## 🧠 Model Architecture
 
